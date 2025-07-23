@@ -1,0 +1,211 @@
+<!DOCTYPE index.html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karriem A.J. Perry | Quantum Machine Learning Complex Systems Theorist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #081120; /* A very dark navy blue */
+            color: #d1d5db; /* A light gray for silver-like text */
+        }
+        .header-bg {
+            background-color: #0b1a2e; /* Slightly lighter navy for header */
+        }
+        .accent-orange {
+            color: #f97316; /* Tailwind orange-500 */
+        }
+        .bg-accent-orange {
+            background-color: #f97316; /* Tailwind orange-500 */
+        }
+        .nav-link:hover {
+            color: #f97316; /* Orange on hover */
+        }
+        .section-heading {
+            border-bottom: 2px solid #f97316; /* Orange underline for headings */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #081120;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #f97316;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ea580c;
+        }
+    </style>
+</head>
+<body class="text-gray-300">
+
+    <!-- Header and Navigation -->
+    <header class="header-bg shadow-lg fixed w-full z-50">
+        <nav class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            <!-- Site Title/Logo -->
+            <a href="#" class="text-2xl font-bold text-gray-100 hover:text-gray-300 transition duration-300 ease-in-out rounded-md p-2">
+                Karriem A.J. Perry, Ph.D.
+            </a>
+
+            <!-- Navigation Links -->
+            <div class="mt-4 md:mt-0 flex flex-wrap justify-center gap-x-6 gap-y-2">
+                <a href="#about" class="nav-link text-lg font-medium text-gray-300 hover:text-orange-500 transition duration-300 ease-in-out px-3 py-2 rounded-md">About</a>
+                <a href="#research" class="nav-link text-lg font-medium text-gray-300 hover:text-orange-500 transition duration-300 ease-in-out px-3 py-2 rounded-md">Research/Projects</a>
+                <a href="#publications" class="nav-link text-lg font-medium text-gray-300 hover:text-orange-500 transition duration-300 ease-in-out px-3 py-2 rounded-md">Publications</a>
+                <a href="#cv" class="nav-link text-lg font-medium text-gray-300 hover:text-orange-500 transition duration-300 ease-in-out px-3 py-2 rounded-md">CV</a>
+                <a href="#github" class="nav-link text-lg font-medium text-gray-300 hover:text-orange-500 transition duration-300 ease-in-out px-3 py-2 rounded-md">GitHub</a>
+                <a href="#contact" class="nav-link text-lg font-medium text-gray-300 hover:text-orange-500 transition duration-300 ease-in-out px-3 py-2 rounded-md">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="pt-24 pb-12"> <!-- Padding top to account for fixed header -->
+
+        <!-- About Section -->
+        <section id="about" class="container mx-auto px-6 py-12 mb-12 bg-blue-900 rounded-lg shadow-xl">
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-8 pb-4 section-heading">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center md:space-x-8">
+                <div class="md:w-1/3 mb-6 md:mb-0">
+                    <img src="https://placehold.co/300x300/1e3a8a/d1d5db?text=Karriem+Perry" alt="Karriem A.J. Perry" class="rounded-full shadow-lg border-4 border-orange-500 mx-auto w-48 h-48 object-cover">
+                </div>
+                <div class="md:w-2/3 text-lg leading-relaxed">
+                    <p class="mb-4">Hi there! I'm a theoretical quantum machine learning researcher, data scientist, and adjunct professor. With a background in psychology, data analytics, AI, and quantum computing, my work spans the frontiers of AI, complex systems, possibility theory, and statistical-relational learning. He holds a BA in Psychology from Ottawa University (KS), an MS in Data Analytics from Southern New Hampshire University (NH), a Ph.D. in AI, and I'm currently pursuing a second Ph.D. in Quantum Computing at Capitol Technology University (MD). This cross-disciplinary approach has led me to incorporate complex systems science into my current research.</p>
+                    <p>As a former Green Beret and Army Ranger, when I'm not researching, Karriem is either biking, hiking, on my MTB, or building his tech startups: JIANT Systems, LLC and UltraMassive Advanced Scientific Research Corporation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research/Projects Section -->
+        <section id="research" class="container mx-auto px-6 py-12 mb-12 bg-blue-900 rounded-lg shadow-xl">
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-8 pb-4 section-heading">Research & Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800 hover:border-orange-500 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-semibold accent-orange mb-3">Relational Quantum Machine Learning Simulations</h3>
+                    <p class="text-gray-400 mb-4">Developing novel quantum algorithms for learning and pattern recognition in complex relational data.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium">Learn More &rarr;</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800 hover:border-orange-500 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-semibold accent-orange mb-3">Possibilitic-Theoretic Extreme Learning Machines</h3>
+                    <p class="text-gray-400 mb-4">Exploring the application of possibility theory to enhance the robustness and interpretability of extreme learning machines in uncertain environments.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium">Learn More &rarr;</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800 hover:border-orange-500 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-semibold accent-orange mb-3">Artificial Mathematical Intelligence Complex Systems</h3>
+                    <p class="text-gray-400 mb-4">Investigating the foundational principles of artificial intelligence as complex adaptive systems, with a focus on mathematical intelligence.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium">Learn More &rarr;</a>
+                </div>
+                <!-- Project 4 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800 hover:border-orange-500 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-semibold accent-orange mb-3">Agent-Based Models for Synthetic Quantum Data</h3>
+                    <p class="text-gray-400 mb-4">Creating agent-based simulations to generate synthetic datasets for quantum machine learning research and algorithm testing.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="container mx-auto px-6 py-12 mb-12 bg-blue-900 rounded-lg shadow-xl">
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-8 pb-4 section-heading">Publications</h2>
+            <div class="space-y-8">
+                <p class="text-lg mb-4">See my full publication list on <a href="https://scholar.google.com/citations?user=TCN7ZLAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-orange-500 font-medium">Google Scholar</a>.</p>
+                <!-- Publication 1 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800">
+                    <h3 class="text-2xl font-semibold accent-orange mb-2">Plant Breeding Biomolecular Classification in Quantum Bayesianism (QBism) Physics-Informed Neural Network Architecture</h3>
+                    <p class="text-gray-400 mb-4">This paper explores the application of Quantum Bayesianism principles in a physics-informed neural network for biomolecular classification in plant breeding, aiming for more robust and interpretable models.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium" target="_blank" rel="noopener noreferrer">Read Paper (Link Placeholder) &rarr;</a>
+                </div>
+                <!-- Publication 2 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800">
+                    <h3 class="text-2xl font-semibold accent-orange mb-2">Possibility Theory Quantification in Human Capital Management: A Scientific Machine Learning (SciML) Perspective</h3>
+                    <p class="text-gray-400 mb-4">Investigating the use of possibility theory to quantify uncertainty and imprecision in human capital management, leveraging Scientific Machine Learning (SciML) for enhanced decision-making.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium" target="_blank" rel="noopener noreferrer">Read Paper (Link Placeholder) &rarr;</a>
+                </div>
+                <!-- Publication 3 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800">
+                    <h3 class="text-2xl font-semibold accent-orange mb-2">Optimizing Adult Learner Success: Applying Random Forest Classifier in Higher Education Predictive Analytics</h3>
+                    <p class="text-gray-400 mb-4">A study on utilizing Random Forest Classifiers in predictive analytics to optimize success rates for adult learners in higher education, identifying key factors influencing outcomes.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium" target="_blank" rel="noopener noreferrer">Read Paper (Link Placeholder) &rarr;</a>
+                </div>
+                <!-- Publication 4 -->
+                <div class="bg-blue-950 p-6 rounded-lg shadow-md border border-blue-800">
+                    <h3 class="text-2xl font-semibold accent-orange mb-2">Relational Quantum Statistical-Relational Machine Learning in Complex Systems</h3>
+                    <p class="text-gray-400 mb-4">Exploring the integration of quantum statistical-relational learning with complex systems theory to develop advanced machine learning models capable of handling intricate relationships and emergent behaviors.</p>
+                    <a href="#" class="text-blue-400 hover:text-orange-500 font-medium" target="_blank" rel="noopener noreferrer">Read Paper (Link Placeholder) &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="container mx-auto px-6 py-12 mb-12 bg-blue-900 rounded-lg shadow-xl text-center">
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-8 pb-4 section-heading inline-block">Curriculum Vitae</h2>
+            <p class="text-lg mb-8">Download Karriem's full academic CV for a detailed overview of his qualifications, experience, and publications.</p>
+            <a href="cv.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Download CV (PDF)
+            </a>
+            <p class="text-sm text-gray-500 mt-4"><em>(Link will open in a new tab)</em></p>
+        </section>
+
+        <!-- GitHub Section -->
+        <section id="github" class="container mx-auto px-6 py-12 mb-12 bg-blue-900 rounded-lg shadow-xl text-center">
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-8 pb-4 section-heading inline-block">GitHub Profile</h2>
+            <p class="text-lg mb-8">Explore Karriem's code repositories, research projects, and contributions on GitHub.</p>
+            <a href="https://github.com/ajperry-research" target="_blank" rel="noopener noreferrer" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Visit My GitHub
+            </a>
+            <p class="text-sm text-gray-500 mt-4"><em>(Link will open in a new tab)</em></p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container mx-auto px-6 py-12 mb-12 bg-blue-900 rounded-lg shadow-xl">
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-8 pb-4 section-heading">Contact Me</h2>
+            <p class="text-lg mb-8">Feel free to reach out if you have any questions, collaboration inquiries, or just want to connect!</p>
+
+            <div class="max-w-xl mx-auto">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-lg font-medium text-gray-300 mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-md bg-blue-950 border border-blue-800 focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 text-gray-200" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-medium text-gray-300 mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-md bg-blue-950 border border-blue-800 focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 text-gray-200" placeholder="your.email@example.com" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-lg font-medium text-gray-300 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="6" class="w-full px-4 py-3 rounded-md bg-blue-950 border border-blue-800 focus:border-orange-500 focus:ring focus:ring-orange-500 focus:ring-opacity-50 text-gray-200" placeholder="Your message..." required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+                <p class="text-center text-gray-400 mt-8">
+                    Alternatively, you can reach Karriem directly at: <a href="mailto:k.perry@umasr.org or aj_perry@outlook.com" class="accent-orange hover:underline">karriem@example.com</a><br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/karriem-p-b704b875/" target="_blank" rel="noopener noreferrer" class="accent-orange hover:underline">linkedin.com/in/karriem-p-b704b875/</a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="header-bg text-center py-8">
+        <p class="text-gray-400 text-sm">&copy; 2025 Karriem Perry. All Rights Reserved.</p>
+        <p class="text-gray-500 text-xs mt-2">Built with <span class="accent-orange">&hearts;</span> and Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
